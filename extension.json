@@ -52,15 +52,6 @@
 				"drawioeditor-changeapprove-link"
 			]
 		},
-		"ext.drawioconnector.visualEditor.bootstrap": {
-			"packageFiles": [
-				"ext.drawioconnector.visualEditor.bootstrap.js",
-				{
-					"name": "pluginModules.json",
-					"callback": "MediaWiki\\Extension\\DrawioEditor\\DrawioInspectorPluginModules::getPluginModules"
-				}
-			]
-		},
 		"ext.drawioconnector.visualEditor": {
 			"scripts": [
 				"ve/ve.dm.DrawioNode.js",
